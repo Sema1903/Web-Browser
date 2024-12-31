@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proximo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="nav-bar">
+    <input type="text" id="url-bar" placeholder="Введи URL" />
+    <button id="go-button">Найти</button>
+  </div>
+  <div id="browser-content">
+  </div>
+  <script>
+    document.getElementById('go-button').addEventListener('click', () => {
+      const url = document.getElementById('url-bar').value;
+      window.location.href = url;
+    });
+  </script>
+</body>
+</html>
