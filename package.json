@@ -1,0 +1,11 @@
+{
+  "name": "proximo",
+  "version": "1.0.0",
+  "description": "new perspective browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Sema1903",
+  "license": "ISC"
+}
